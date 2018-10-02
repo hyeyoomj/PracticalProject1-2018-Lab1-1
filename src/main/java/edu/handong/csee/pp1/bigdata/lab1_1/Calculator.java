@@ -30,7 +30,7 @@ public class Calculator {
 	static int countForAnyCompution = 0;
 	// private member variable is used by only one object can can't be shared by other objects
 	//
-
+	
 	private int localCount = 0;
 
 
@@ -90,7 +90,7 @@ public class Calculator {
 	int subtract(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
-		return first + second;
+		return first - second;
 	}
 
 	int multiply(int first, int second) {
